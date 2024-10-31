@@ -9,5 +9,5 @@ En este espacio encontrarán el código de pruebas y las plantillas necesarias p
 - **solucionRPAchallenge/**: Contiene ejemplos de pruebas que pueden servir como referencia para validar su código.
 - **plantilla/**: Contiene la plantilla que deben utilizar para implementar sus soluciones.
 - **codigos para presentacion/**: Contiene los codigo que se socializaron en la presentación.
-- 
+ 
 Recuerden que pueden contribuir y mejorar estos recursos para que todos los integrantes puedan beneficiarse.
