@@ -8,8 +8,8 @@ Este repositorio les proporciona ejemplos y estructuras base para desarrollar su
 
 ## Estructura del Repositorio
 
-- **solucionRPAchallenge/**: Ejemplos de posibles soluciones a este reto.
-- **plantilla/**: Pueden utilizarla para desarrollar sus propios códigos.
-- **codigos para presentacion/**: Los cuales se socializaron en la sesión.
+- **solucionRPAchallenge**: Ejemplos de posibles soluciones a este reto.
+- **plantilla**: Pueden utilizarla para desarrollar sus propios códigos.
+- **codigos para presentacion**: Los cuales se socializaron en la sesión.
  
 Recuerden que pueden contribuir y mejorar estos recursos para que todos los participantes puedan beneficiarse.
