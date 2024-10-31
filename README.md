@@ -13,3 +13,5 @@ Este repositorio les proporciona ejemplos y estructuras base para desarrollar su
 - **codigos para presentacion**: Los cuales se socializaron en la sesión.
  
 Recuerden que pueden contribuir y mejorar estos recursos para que todos los participantes puedan beneficiarse.
+
+![LogoQuipuxGrande_fondoblanco](https://github.com/user-attachments/assets/1c03fc79-c840-42b8-8477-58ad3b727c4d)
