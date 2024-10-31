@@ -1,6 +1,6 @@
-# Aulas de Ciudad 2024 - Repositorio de Pruebas y Plantillas
+# Aulas de Ciudad 2024 - Repositorio de Pruebas y Plantilla
 
-Bienvenidos al repositorio **Aulas de Ciudad**.
+Bienvenidos al repositorio **Aulas de Ciudad 2024 - Quipux S.A.S**.
 
 En este espacio encontrarán el código de pruebas y las plantillas necesarias para programar el proceso correspondiente. Este repositorio está diseñado para facilitar el trabajo de los integrantes del semillero **Aulas de Ciudad**, proporcionándoles ejemplos y estructuras base para que puedan desarrollar sus proyectos de manera efectiva.
 
