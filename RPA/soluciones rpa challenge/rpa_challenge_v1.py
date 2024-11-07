@@ -5,7 +5,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
-import chromedriver_autoinstaller
 
 
 #----------------------------CONFIGURACIONES----------------------------------#
@@ -38,9 +37,6 @@ XPATH_MENSAJE_RESULTADO = '//div[@class="message2"]'
 # Dirección del sitio web del reto
 URL_RETO = 'https://rpachallenge.com/'
 
-
-# Instalamos el navegador de chrome
-chromedriver_autoinstaller.install() 
 
 # Definición de objeto que inicia y detiene el ChromeDriver
 s = Service()
