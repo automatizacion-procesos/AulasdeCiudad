@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carga el archivo Excel
-file_path = 'challenge.xlsx'
+file_path = 'data.xlsx'
 # Lee el excel
 df = pd.read_excel(file_path)
 
