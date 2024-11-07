@@ -14,7 +14,7 @@ else:
     print(df)
 
     # Filtra los datos (por ejemplo, selecciona filas donde una columna específica cumple una condición)
-    # Aquí, suponemos que hay una columna llamada 'Role in Company' y queremos filtrar los valores iguales a 'Programmer'
+    # Aquí, suponemos que hay una columna llamada 'Rol' y queremos filtrar los valores iguales a 'Desarrollador nivel - 2'
     df_filtrado = df[df['Rol'] == 'Desarrollador nivel - 2']
 
     # Imprime los datos filtrados
