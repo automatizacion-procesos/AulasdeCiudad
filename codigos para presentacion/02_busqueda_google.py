@@ -3,34 +3,35 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-# Configuración: define lo que quieres buscar
+# Configuración: Define el término de búsqueda
 termino_busqueda = "Quipux"
 
 # Inicializa el driver
 driver = webdriver.Chrome()  
-# Cambia a webdriver.Firefox() si usas Firefox
+# Usa webdriver.Firefox() si prefieres Firefox
 
-driver.maximize_window()
+try:
+    # Configura la ventana y abre Google
+    driver.maximize_window()
+    driver.get("https://www.google.com")
+    time.sleep(2)  # Breve espera para asegurar que la página cargue correctamente
 
-# Abre Google
-driver.get("https://www.google.com")
-time.sleep(20)
+    # Encuentra la barra de búsqueda mediante XPath e ingresa el término
+    search_box = driver.find_element(By.XPATH, "//input[@name='q']")
+    search_box.send_keys(termino_busqueda)
+    search_box.send_keys(Keys.RETURN)
 
-# Encuentra la barra de búsqueda e ingresa el término
-search_box = driver.find_element(By.NAME, "q")
-search_box.send_keys(termino_busqueda)
+    # Espera para que se carguen los resultados
+    time.sleep(3)
 
-# Realiza la búsqueda
-search_box.send_keys(Keys.RETURN)
+    # Selecciona y hace clic en el primer resultado usando XPath
+    primer_resultado = driver.find_element(By.XPATH, "(//h3)[1]")
+    primer_resultado.click()
 
-time.sleep(3)  # Espera para cargar los resultados
-primer_resultado = driver.find_element(By.CSS_SELECTOR, "h3")
-primer_resultado.click()
-time.sleep(10)
+    # Espera y muestra el título de la página de resultados
+    time.sleep(3)
+    print("Título de la página de resultados:", driver.title)
 
-# Espera unos segundos para cargar los resultados y muestra el título de la página de resultados
-time.sleep(10)
-print("Título de la página de resultados:", driver.title)
-
-# Cierra el navegador
-driver.quit()
+finally:
+    # Cierra el navegador
+    driver.quit()
